@@ -1,8 +1,8 @@
 # Airbnb Data Analysis (Python)
 
 ## Overview
-This project focuses on cleaning, exploring, and analyzing Airbnb open data to understand listing distribution and pricing patterns across neighbourhoods.  
-The analysis is intended to demonstrate fundamental data analysis skills using Python.
+- This project focuses on cleaning, exploring, and analyzing Airbnb open data to understand listing distribution and pricing patterns across neighbourhoods.  
+- The analysis is intended to demonstrate fundamental data analysis skills using Python.
 
 ## Tools & Technologies
 - Python
