@@ -1,43 +1,85 @@
-# Data Analytics Portfolio
+# 📊 Data Analytics Portfolio  
+### Rajiv Noor Said
 
-## About Me
-I am a graduate in Industrial Engineering with a strong interest in Data Analytics and Business Analytics.  
-This repository contains a collection of my data analysis projects, showcasing my skills in data cleaning, exploratory data analysis, and data visualization using Python and Tableau.
+Welcome to my Data Analytics Portfolio.  
 
-## Repository Structure
-This portfolio is organized into mini repositories, where each project focuses on a specific tool or analysis case.
+This repository showcases hands-on projects demonstrating my technical skills in data cleaning, querying, analysis, and visualization using Python, SQL, and Tableau.
+The goal of this portfolio is to present practical, real-world data problem-solving capabilities aligned with Data Analyst roles.
+---
 
+## 🎯 Portfolio Objective
 
-## Projects
+To demonstrate:
+- Strong data preprocessing and cleaning skills  
+- Ability to extract insights using SQL  
+- Data visualization and dashboard development  
+- Structured analytical thinking  
+- End-to-end data workflow understanding  
+---
 
-### 1. Python Data Analysis Projects
-Projects focused on data cleaning, exploratory data analysis (EDA), and basic visualization using Python.
-- Tools: Python, Pandas, Matplotlib
-- Skills demonstrated:
-  - Data preprocessing
-  - Exploratory Data Analysis (EDA)
-  - Insight generation from data
+## 📂 Projects
 
-### 2. Tableau Dashboard Projects
-Interactive dashboards built using Tableau to visualize and communicate insights effectively.
-- Tools: Tableau Desktop
-- Skills demonstrated:
-  - Dashboard design
-  - Data visualization
-  - Business insight communication
+### 1️⃣ Python Project  
+Focus: Data Cleaning & Automation  
 
-Each mini repository contains its own README file with detailed explanations of the project, dataset, methodology, and key insights.
+- Automated preprocessing pipeline  
+- Missing value handling  
+- Duplicate detection  
+- Data type correction  
+- Export-ready datasets  
 
-## Tools & Technologies
-- Python
-- Pandas
-- Matplotlib
-- Tableau
-- SQL (PostgreSQL / BigQuery – basic usage)
+🔧 Tools: Python, Pandas, NumPy  
 
-## Purpose
-This portfolio is created for learning and professional development purposes, as well as to demonstrate my analytical skills to recruiters and interviewers.
+---
 
-## Notes
-- All datasets used are publicly available or dummy datasets.
-- No sensitive data, credentials, or confidential information are included in this repository.
+### 2️⃣ SQL Project  
+Focus: Data Querying & Business Insight Extraction  
+
+- Data exploration using SELECT, JOIN, GROUP BY  
+- Aggregation & KPI calculation  
+- Business-driven query analysis  
+- Insight generation from relational databases  
+
+🔧 Tools: SQL (MySQL / PostgreSQL / SQL Server)
+
+---
+
+### 3️⃣ Tableau Project  
+Focus: Data Visualization & Dashboarding  
+
+- Interactive dashboards  
+- KPI visualization  
+- Trend & performance analysis  
+- Business storytelling through visuals  
+
+🔧 Tools: Tableau  
+
+---
+
+## 🛠 Technical Skills Demonstrated
+
+- Data Cleaning & Preprocessing  
+- SQL Query Optimization  
+- Exploratory Data Analysis (EDA)  
+- Data Visualization & Dashboarding  
+- Business Insight Translation  
+- ETL Workflow Thinking  
+
+---
+
+## 🚀 Why This Portfolio Matters
+
+These projects reflect my ability to work across the full data analysis workflow:
+
+Raw Data → Cleaning → Querying → Analysis → Visualization → Insight
+
+Rather than focusing on theory, this portfolio emphasizes practical, reproducible, and business-oriented data solutions.
+
+---
+
+## 👤 About Me
+
+Rajiv Noor Said  
+Industrial Engineering Graduate | Aspiring Data Analyst  
+
+LinkedIn: (www.linkedin.com/in/rajiv-noor-said)
