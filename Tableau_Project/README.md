@@ -29,8 +29,8 @@ The goal of this portfolio is to demonstrate:
 
 ## 📂 Projects Included
 
-### 1️⃣ [Project Name – e.g., Sales Performance Dashboard]  
-An interactive dashboard analyzing sales trends, revenue performance, and key business metrics to support data-driven decision-making.
+### 1️⃣ AirBnB_Project  
+An interactive Tableau dashboard analyzing Airbnb listing distribution, pricing patterns, regional performance, and guest satisfaction metrics to support data-driven insights in the hospitality market.
 
 (https://public.tableau.com/shared/SY7YDHBW8?:display_count=n&:origin=viz_share_link)
 
@@ -41,6 +41,7 @@ An interactive dashboard analyzing sales trends, revenue performance, and key bu
 - Dashboard Design & Layout Optimization  
 - Interactive Filters & Parameters  
 - Calculated Fields & KPI Creation  
+- Geographic Visualization  
 - Trend & Comparative Analysis  
 - Data Storytelling  
 
@@ -50,4 +51,4 @@ An interactive dashboard analyzing sales trends, revenue performance, and key bu
 
 Rajiv Noor Said  
 Industrial Engineering Graduate | Aspiring Data Analyst  
-LinkedIn: (Add your LinkedIn link here)
+LinkedIn: (www.linkedin.com/in/rajiv-noor-said)
