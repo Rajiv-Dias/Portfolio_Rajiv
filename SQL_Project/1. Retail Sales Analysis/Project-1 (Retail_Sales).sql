@@ -10,8 +10,8 @@ DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales
             (
                 transaction_id INT PRIMARY KEY,	
-                sale_date DATE,	 --the format (yyyy-mm-dd)
-                sale_time TIME,	 -- the format (hh-mm-ss)
+                sales_date DATE,	 --the format (yyyy-mm-dd)
+                sales_time TIME,	 -- the format (hh-mm-ss)
                 customer_id	INT,
                 gender	VARCHAR(15), -- Check Max (len) in Excel, specify varchar(x)
                 age	INT,
@@ -19,7 +19,7 @@ CREATE TABLE retail_sales
                 quantity	INT,
                 price_per_unit FLOAT,	
                 cogs	FLOAT,
-                total_sale FLOAT
+                total_sales FLOAT
             );
 
 -- Checking whether the data has been entered
@@ -270,6 +270,7 @@ order by revenue desc
 
 -- Note:
 -- saat ingin membuat kolom baru yg rumit perlu buat tabel baru juga (CTE)
+
 
 
 
