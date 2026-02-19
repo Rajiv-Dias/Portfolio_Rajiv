@@ -50,29 +50,31 @@ CREATE TABLE retail_sales
 
 ```sql
 -- a. Record Count
-select count (*) as total_row
-from public.retail_sales
+SELECT COUNT (*) AS total_row
+FROM public.retail_sales
 
 -- b. Customer Count
-select count (distinct customer_id) 
-from public.retail_sales
+SELECT COUNT (DISTINCT customer_id) 
+FROM public.retail_sales
 
 -- c. Category Count
-select distinct category 
-from retail_sales;
+SELECT DISTINCT category 
+FROM retail_sales;
 
 -- d. Null Value Check
-SELECT * FROM retail_sales
+-- a. Finding Null Values 🆗 
+SELECT * 
+FROM public.retail_sales
 WHERE 
-    sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
-    gender IS NULL OR age IS NULL OR category IS NULL OR 
-    quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
+	transaction_id IS NULL OR sales_date IS NULL OR sales_time IS NULL OR             customer_id IS NULL OR gender IS NULL OR age IS NULL OR category IS NULL
+	OR quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL OR total_sales      IS NULL
 
-DELETE FROM retail_sales
+-- b. Remove null values 🆗
+DELETE 
+FROM public.retail_sales
 WHERE 
-    sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
-    gender IS NULL OR age IS NULL OR category IS NULL OR 
-    quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
+transaction_id IS NULL OR sales_date IS NULL OR sales_time IS NULL OR             customer_id IS NULL OR gender IS NULL OR age IS NULL OR category IS NULL
+	OR quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL OR total_sales      IS NULL
 ```
 
 ### 3. Data Analysis & Findings
@@ -82,8 +84,8 @@ The following SQL queries were developed to answer specific business questions:
 1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05**:
 ```sql
 SELECT *
-FROM retail_sales
-WHERE sale_date = '2022-11-05';
+FROM public.retail_sales
+WHERE sales_date = '2022-11-05'
 ```
 
 2. **Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022**:
