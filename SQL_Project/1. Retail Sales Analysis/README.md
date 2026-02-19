@@ -19,17 +19,17 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 ### 1. Database Setup
 
-- **Database Creation**: The project starts by creating a database named `p1_retail_db`.
-- **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+- **Database Creation**: The project starts by creating a database named `ProjectSQL_db`.
+- **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sales date, sales time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sales amount.
 
 ```sql
-CREATE DATABASE p1_retail_db;
+CREATE DATABASE ProjectSQL_db;
 
 CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
-    sale_date DATE,	
-    sale_time TIME,
+    sales_date DATE,	
+    sales_time TIME,
     customer_id INT,	
     gender VARCHAR(10),
     age INT,
@@ -37,7 +37,7 @@ CREATE TABLE retail_sales
     quantity INT,
     price_per_unit FLOAT,	
     cogs FLOAT,
-    total_sale FLOAT
+    total_sales FLOAT
 );
 ```
 
@@ -49,10 +49,19 @@ CREATE TABLE retail_sales
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
 ```sql
-SELECT COUNT(*) FROM retail_sales;
-SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
-SELECT DISTINCT category FROM retail_sales;
+-- a. Record Count
+select count (*) as total_row
+from public.retail_sales
 
+-- b. Customer Count
+select count (distinct customer_id) 
+from public.retail_sales
+
+-- c. Category Count
+select distinct category 
+from retail_sales;
+
+-- d. Null Value Check
 SELECT * FROM retail_sales
 WHERE 
     sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
